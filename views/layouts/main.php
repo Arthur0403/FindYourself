@@ -64,6 +64,8 @@ AppAsset::register($this);
         ]) ?>
         <?= Alert::widget() ?>
         <?= $content ?>
+
+        <div id="tests"></div>
     </div>
 </div>
 
