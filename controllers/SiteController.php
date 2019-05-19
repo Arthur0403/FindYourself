@@ -125,4 +125,34 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    /**
+     * Displays Types page.
+     *
+     * @return string
+     */
+    public function actionTypes()
+    {
+        return $this->render('types');
+    }
+
+    /**
+     * Displays List page.
+     *
+     * @return string
+     */
+    public function actionList()
+    {
+        return $this->render('list');
+    }
+
+    /**
+     * Displays Test page.
+     *
+     * @return string
+     */
+    public function actionTest()
+    {
+        return $this->render('test');
+    }
 }
