@@ -5,7 +5,7 @@
 ?>
 <div class="site-list">
 
-    <p><a class="btn btn-lg btn-success" href="/site/..">Назад</a></p>
+    <p><a class="btn btn-lg btn-success" href="/site/types">Назад</a></p>
 
     <h2>Список тестов</h2>
 
