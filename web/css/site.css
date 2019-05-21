@@ -6,12 +6,12 @@ body {
 .wrap {
     min-height: 100%;
     height: auto;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
+    /* margin: 0 auto -60px;
+    padding: 0 0 60px; */
 }
 
 .wrap > .container {
-    padding: 70px 15px 20px;
+    /* padding: 70px 15px 20px; */
 }
 
 .footer {
@@ -164,3 +164,80 @@ a.desc:after {
   #test {
       margin-bottom: 20px;
   }
+  html,
+    body {
+    height: 100%;
+    }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  a:hover, a:visited, a:focus, a:active {
+      text-decoration: none;
+  }
+  a:hover {
+      opacity: 0.5;
+  }
+  .site-index {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .index-link {
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    color: #B0B0B0;
+
+  }
+  .index-link span {
+      display: block;
+      text-align: center;
+      font-size: 30px;
+  }
+.owl-carousel .item p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    color: #828282;
+  }
+  .banner-link {
+      position: relative;
+      bottom: 0;
+      display: block;
+      text-align: center;
+      background: #C4C4C4;
+      width: 100%;
+      padding: 11px;
+      color: #FFFFFF;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+
+  .owl-dots {
+      position: relative;
+      width: 100%;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      bottom: -4px;
+      margin-bottom: 20px;
+  }
+  .owl-dots .owl-dot {
+    background: #C4C4C4 !important;
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    margin: 0 5px;
+}
+.owl-dots .owl-dot.active {
+    width: 26px !important;
+    height: 26px !important;
+}
