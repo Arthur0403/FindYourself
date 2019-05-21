@@ -156,9 +156,8 @@ class SiteController extends Controller
         return $this->render('test');
     }
 
-    
     /**
-     * Displays Banner page.
+     * Displays Test banner.
      *
      * @return string
      */
@@ -167,8 +166,8 @@ class SiteController extends Controller
         return $this->render('banner');
     }
 
-        /**
-     * Displays Start page.
+    /**
+     * Displays Test start.
      *
      * @return string
      */
