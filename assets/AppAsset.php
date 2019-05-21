@@ -21,9 +21,11 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'css/owl.carousel.min.css'
     ];
     public $js = [
         'js/script.js',
+        'js/owl.carousel.min.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
