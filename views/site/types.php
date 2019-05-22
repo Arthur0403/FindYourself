@@ -4,11 +4,17 @@
 
 ?>
 <div class="site-types">
+    <div class="grey-line"></div>
+    <div class="grey-dark">
+        <a class="btn btn-lg btn-back" href="/site/start"><img src="../img/arrow-grey.svg" alt=""></a>
+        <p class="header-text">Тесты</p>
+    </div>
 
-    <p><a class="btn btn-lg btn-success" href="/site/..">Назад</a></p>
+    <!-- <div id="types"></div> -->
+    <div class="types">
+    <a href="/site/list" class="psychology">Психологичские тесты</a>
+    <a href="#" class="subject">Предметные тесты</a>
+    </div>
 
-    <h2>Виды тестов:<h2>
-
-    <div id="types"></div>
 
 </div>
