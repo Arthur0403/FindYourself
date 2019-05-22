@@ -27,8 +27,17 @@ body {
 }
 
 .jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(180deg, #6BB9CE -22%, #007EA2 88%);
+    border-radius: 15px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+    padding: 14px 0;
 }
 
 .not-set {
@@ -202,29 +211,26 @@ a.desc:after {
     font-size: 30px;
     line-height: 35px;
     color: #828282;
+    padding-top: 70px;
   }
   .banner-link {
-      position: relative;
-      bottom: 0;
       display: block;
       text-align: center;
-      background: #C4C4C4;
+      background: linear-gradient(180deg, #6BB9CE -22%, #007EA2 88%);
       width: 100%;
-      padding: 11px;
+      padding: 25px 10px;
       color: #FFFFFF;
       font-weight: bold;
-      text-transform: uppercase;
+      font-size: 28px;
   }
 
   .owl-dots {
-      position: relative;
       width: 100%;
       left: 0;
       display: flex;
       justify-content: center;
       align-items: center;
-      bottom: -4px;
-      margin-bottom: 20px;
+      margin-bottom: 50px;
   }
   .owl-dots .owl-dot {
     background: #C4C4C4 !important;
@@ -240,4 +246,90 @@ a.desc:after {
 .owl-dots .owl-dot.active {
     width: 26px !important;
     height: 26px !important;
+    background: #4D4C59 !important;
 }
+.grey-line {
+    height: 20px;
+    width: 100%;
+    background: #828282;
+}
+.dark-line {
+    height: 50px;
+    width: 100%;
+    background: #362C36;
+}
+.content {
+    min-height: 620px;
+}
+.site-banner {
+    height: 100%;
+    min-height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    height: 100%;
+    min-height: 550px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ button:focus {
+     outline: none !important;
+ }
+ .grey-dark {
+    background: #BDBDBD;
+    position: relative;
+ }
+ .header-text {
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 13px 0;
+ }
+ .btn-back {
+    position: absolute;
+ }
+ .psychology {
+    padding-top: 160px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center; 
+    color: #000000;
+    background: url('../img/brain.png') no-repeat center top;
+    margin: 40px 0;
+ }
+ .subject {
+     padding-top: 160px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center; 
+    color: #000000;
+    background: url('../img/book.png') no-repeat center top;
+    margin: 30px 0;
+ }
+ .types {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .list {
+     padding: 20px 15px;
+ }
+ .list a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    border-bottom: 2px solid #828282;
+    display: block;
+    padding: 15px 15px;
+ }
+ a {
+     cursor: pointer;
+ }
