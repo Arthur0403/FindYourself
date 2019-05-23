@@ -21,13 +21,14 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap" rel="stylesheet">
     <?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-    <?php
+    <!-- <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
@@ -56,9 +57,9 @@ AppAsset::register($this);
         ],
     ]);
     NavBar::end();
-    ?>
+    ?> -->
 
-    <div class="container">
+    <div class="content">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
@@ -67,13 +68,13 @@ AppAsset::register($this);
     </div>
 </div>
 
-<footer class="footer">
+<!-- <footer class="footer">
     <div class="container">
         <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
-</footer>
+</footer> -->
 
 <?php $this->endBody() ?>
 </body>

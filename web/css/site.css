@@ -6,12 +6,12 @@ body {
 .wrap {
     min-height: 100%;
     height: auto;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
+    /* margin: 0 auto -60px;
+    padding: 0 0 60px; */
 }
 
 .wrap > .container {
-    padding: 70px 15px 20px;
+    /* padding: 70px 15px 20px; */
 }
 
 .footer {
@@ -27,8 +27,17 @@ body {
 }
 
 .jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(180deg, #6BB9CE -22%, #007EA2 88%);
+    border-radius: 15px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+    padding: 14px 0;
 }
 
 .not-set {
@@ -113,3 +122,214 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+
+/* ----------------------Стили для приложения -----------------------*/
+.radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+  }
+  .radio + label {
+    position: relative;
+    padding: 0 0 0 35px;
+    cursor: pointer;
+  }
+  .radio + label:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #CDD1DA;
+    border-radius: 50%;
+    background: #FFF;
+  }
+  .radio + label:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #9FD468;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+    opacity: 0;
+    transition: .2s;
+  }
+  .radio:checked + label:after {
+    opacity: 1;
+  }
+  .radio:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(255,255,0,.7);
+  }
+  label {
+      display: inline-block;
+      margin-left: 20px;
+  }
+  #test {
+      margin-bottom: 20px;
+  }
+  html,
+    body {
+    height: 100%;
+    }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  a:hover, a:visited, a:focus, a:active {
+      text-decoration: none;
+  }
+  a:hover {
+      opacity: 0.5;
+  }
+  .site-index {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .index-link {
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    color: #B0B0B0;
+
+  }
+  .index-link span {
+      display: block;
+      text-align: center;
+      font-size: 30px;
+  }
+.owl-carousel .item p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    color: #828282;
+    padding-top: 70px;
+  }
+  .banner-link {
+      display: block;
+      text-align: center;
+      background: linear-gradient(180deg, #6BB9CE -22%, #007EA2 88%);
+      width: 100%;
+      padding: 25px 10px;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size: 28px;
+  }
+
+  .owl-dots {
+      width: 100%;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+  }
+  .owl-dots .owl-dot {
+    background: #C4C4C4 !important;
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    margin: 0 5px;
+}
+.owl-dots .owl-dot.active {
+    width: 26px !important;
+    height: 26px !important;
+    background: #4D4C59 !important;
+}
+.grey-line {
+    height: 20px;
+    width: 100%;
+    background: #828282;
+}
+.dark-line {
+    height: 50px;
+    width: 100%;
+    background: #362C36;
+}
+.content {
+    min-height: 620px;
+}
+.site-banner {
+    height: 100%;
+    min-height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    height: 100%;
+    min-height: 550px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ button:focus {
+     outline: none !important;
+ }
+ .grey-dark {
+    background: #BDBDBD;
+    position: relative;
+ }
+ .header-text {
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 13px 0;
+ }
+ .btn-back {
+    position: absolute;
+ }
+ .psychology {
+    padding-top: 160px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center; 
+    color: #000000;
+    background: url('../img/brain.png') no-repeat center top;
+    margin: 40px 0;
+ }
+ .subject {
+     padding-top: 160px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center; 
+    color: #000000;
+    background: url('../img/book.png') no-repeat center top;
+    margin: 30px 0;
+ }
+ .types {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .list {
+     padding: 20px 15px;
+ }
+ .list a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    border-bottom: 2px solid #828282;
+    display: block;
+    padding: 15px 15px;
+ }
+ a {
+     cursor: pointer;
+ }
